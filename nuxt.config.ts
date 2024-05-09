@@ -1,19 +1,19 @@
-import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
+import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify';
 export default defineNuxtConfig({
   devtools: { enabled: true },
   build: {
-    transpile: ["vuetify"],
+    transpile: ['vuetify'],
   },
   modules: [
-    "@nuxt/eslint",
+    '@nuxt/eslint',
     (_options, nuxt) => {
-      nuxt.hooks.hook("vite:extendConfig", (config) => {
+      nuxt.hooks.hook('vite:extendConfig', (config) => {
         // @ts-expect-error is not undefined
         config.plugins.push(vuetify({ autoImport: true }));
       });
     },
-    "@nuxt/imagee",
-    "@nuxtjs/google-fonts",
+    '@nuxt/image',
+    '@nuxtjs/google-fonts',
   ],
   vite: {
     vue: {
