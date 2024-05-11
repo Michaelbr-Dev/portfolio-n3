@@ -2,7 +2,7 @@
   <v-layout>
     <v-navigation-drawer class="bg-deep-purple" permanent>
       <div class="text-center my-3">
-        <p class="text-h5 font-weight-bold">Michael Briquet</p>
+        <p class="text-h5 font-weight-bold">Michaël Briquet</p>
         <h1 class="text-subtitle-1">Développeur Web Front</h1>
       </div>
       <v-img class="mx-auto mb-3" :width="160" src="/assets/images/profile_bw.png" />
@@ -17,8 +17,9 @@
       <v-divider />
       <div class="my-3">
         <p class="px-3 mb-3 text-body-2">
-          Bonjour, je m'appel Michaël et je suis un développeur web frontend de sites et
-          d'applications évolutives. <br />Bienvenue sur mon portfolio !
+          Bonjour, je m'appel Michaël et je suis un <strong>développeur web front-end</strong> de
+          <strong>sites</strong> et <strong>d'applications évolutives</strong>. <br />Bienvenue sur
+          mon portfolio !
         </p>
         <v-divider />
         <div class="mt-3 d-flex justify-center">

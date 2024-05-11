@@ -2,8 +2,8 @@
   <section class="pa-12 bg-grey-lighten-5">
     <div class="d-flex w-75 mx-auto">
       <div class="pr-5">
-        <h2 class="text-h2 mb-1">Michaël Briquet</h2>
-        <p class="text-h4 mb-3">Développeur Web Front</p>
+        <h2 class="text-h4 mb-1">Michaël Briquet</h2>
+        <p class="text-h5 mb-3">Développeur Web Front</p>
         <p class="mb-4 text-body-2">
           Après une formation de <strong>Développeur Web</strong>, j'ai acquis de nombreuses
           compétences et connaissances grâce à des projets réalisés dans différents langages de
