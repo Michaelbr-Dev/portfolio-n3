@@ -14,7 +14,11 @@ export default defineNuxtConfig({
     },
     '@nuxt/image',
     '@nuxtjs/google-fonts',
+    'nuxt-svgo',
   ],
+  svgo: {
+    autoImportPath: './assets/icons/',
+  },
   vite: {
     vue: {
       template: {
