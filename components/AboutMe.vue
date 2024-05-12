@@ -1,6 +1,6 @@
 <template>
-  <section class="pa-12 bg-grey-lighten-5">
-    <div class="d-flex w-75 mx-auto">
+  <section class="d-flex justify-center pa-12 bg-grey-lighten-5 mx-auto">
+    <div class="d-flex w-90 justify-space-between">
       <div class="pr-5">
         <h2 class="text-h4 mb-1">Michaël Briquet</h2>
         <p class="text-h5 mb-3">Développeur Web Front</p>
@@ -29,10 +29,20 @@
           aspect-ratio="1/1"
           cover
           rounded="lg"
-          src="/assets/images/code.jpg"
+          src="@/assets/images/code.jpg"
           alt="Vscode example"
         />
       </div>
     </div>
   </section>
 </template>
+
+<style scoped>
+.w-80 {
+  width: 80% !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+</style>
