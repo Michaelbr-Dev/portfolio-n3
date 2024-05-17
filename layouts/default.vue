@@ -1,16 +1,22 @@
 <template>
-  <v-layout>
-    <v-navigation-drawer class="bg-deep-purple" permanent>
+  <v-app>
+    <v-navigation-drawer class="bg-deep-purple">
       <div class="text-center my-3">
         <p class="text-h5 font-weight-bold">Michaël Briquet</p>
         <h1 class="text-subtitle-1">Développeur Web Front</h1>
       </div>
-      <v-img class="mx-auto mb-3" :width="160" src="/assets/images/profile_bw.png" />
+      <v-img class="mx-auto mb-3" :width="160" src="@/public/images/profile_bw.png" />
       <v-divider />
       <v-list class="mx-auto my-2">
         <v-list-item prepend-icon="mdi-home" link to="/" title="Accueil" />
 
-        <v-list-item class="mx-auto" prepend-icon="mdi-folder" link title="Portfolio" />
+        <v-list-item
+          class="mx-auto"
+          prepend-icon="mdi-folder"
+          link
+          title="Portfolio"
+          to="/projects"
+        />
 
         <v-list-item class="mx-auto" prepend-icon="mdi-email" link title="Contact" />
       </v-list>
@@ -57,7 +63,7 @@
     <v-main>
       <slot />
     </v-main>
-  </v-layout>
+  </v-app>
 </template>
 
 <style scoped>
