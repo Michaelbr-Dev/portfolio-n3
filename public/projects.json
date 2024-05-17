@@ -1,0 +1,127 @@
+[
+  {
+    "id": "1",
+    "name": "Booki",
+    "img": "/images/project_booki.png",
+    "description": "Transformer une maquette en site web avec HTML & CSS. L'objectif est d'intégrer la maquette d'un site de planification de vacance nommé \"Booki\"",
+    "url": [
+      {
+        "url": "https://michaelbr-dev.github.io/OC-Project-2/",
+        "type": "demo",
+        "name": "Voir le projet"
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-2",
+        "type": "code",
+        "name": "Voir le code"
+      }
+    ],
+    "tags": ["Frontend"],
+    "homepage": false
+  },
+  {
+    "id": "2",
+    "name": "ohmyfood",
+    "img": "/images/project_ohmyfood.svg",
+    "description": "Dynamisez une page web avec des animations CSS",
+    "url": [
+      {
+        "url": "https://michaelbr-dev.github.io/OC-Project-3/",
+        "type": "demo",
+        "name": "Voir le projet"
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-3",
+        "type": "code",
+        "name": "Voir le code"
+      }
+    ],
+    "tags": ["Frontend"],
+    "homepage": true
+  },
+  {
+    "id": "3",
+    "name": "La Panthère",
+    "img": "/images/project_panthere.svg",
+    "description": "Optimiser un site web existant",
+    "url": [
+      {
+        "url": "https://michaelbr-dev.github.io/OC-Project-4/",
+        "type": "demo",
+        "name": "Voir le projet"
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-4",
+        "type": "code",
+        "name": "Voir le code"
+      }
+    ],
+    "tags": ["SEO"],
+    "homepage": false
+  },
+  {
+    "id": "4",
+    "name": "Kanap",
+    "img": "/images/project_kanap.png",
+    "description": "Réalisation d'une plateforme E-commerce en Javascript",
+    "url": [
+      {
+        "url": "https://michaelbr-dev.github.io/OC-Project-5/front/html/index.html",
+        "type": "demo",
+        "name": "Voir le projet"
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-5",
+        "type": "code",
+        "name": "Voir le code"
+      }
+    ],
+    "tags": ["Frontend"],
+    "homepage": true
+  },
+  {
+    "id": "5",
+    "name": "Piiquante",
+    "img": "/images/project_piiquante.png",
+    "description": "Construction d'une API sécurisée pour une application d'avis gastronomiques",
+    "url": [
+      {
+        "url": "#",
+        "type": "demo",
+        "name": "Voir le projet"
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-6",
+        "type": "code",
+        "name": "Voir le code"
+      }
+    ],
+    "tags": ["Backend"],
+    "homepage": true
+  },
+  {
+    "id": "6",
+    "name": "Groupomania",
+    "img": "/images/project_groupomania.png",
+    "description": "Réaliser un réseau social professionnel",
+    "url": [
+      {
+        "url": "#",
+        "type": "demo",
+        "name": "Voir le projet"
+      },
+      {
+        "url": "#",
+        "type": "code",
+        "name": "Le code front"
+      },
+      {
+        "url": "#",
+        "type": "code",
+        "name": "Le code back"
+      }
+    ],
+    "tags": ["Frontend", "Backend"],
+    "homepage": true
+  }
+]
