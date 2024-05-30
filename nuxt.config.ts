@@ -19,6 +19,11 @@ export default defineNuxtConfig({
   svgo: {
     autoImportPath: './assets/icons/',
   },
+  runtimeConfig: {
+    EMAIL_USER: '',
+    APP_PASSWORD: '',
+    EMAIL_RECIPIENT: '',
+  },
   vite: {
     vue: {
       template: {
