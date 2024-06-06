@@ -111,12 +111,12 @@
         "name": "Voir le projet"
       },
       {
-        "url": "#",
+        "url": "https://github.com/Michaelbr-Dev/P7-frontend",
         "type": "code",
         "name": "Le code front"
       },
       {
-        "url": "#",
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-7-backend",
         "type": "code",
         "name": "Le code back"
       }
