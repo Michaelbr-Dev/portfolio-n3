@@ -21,7 +21,7 @@ export default {
       .then((projects) => {
         const filteredProjects = projects
           .filter((project) => project.homepage)
-          .slice(-4)
+          .slice(-3)
           .reverse();
         this.projects = filteredProjects;
       });

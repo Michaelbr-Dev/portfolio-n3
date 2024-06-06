@@ -6,14 +6,14 @@
       Vous trouverez toutes mes réalisations sur cette page !<br />
       Je travaille en freelance. Vous voulez de l'aide pour créer votre site ou application ?
     </p>
-    <div class="w-100 mx-auto text-center ma-3">
-      <nuxt-link to="#">
+    <nav class="w-100 mx-auto text-center ma-3">
+      <nuxt-link to="/contact">
         <v-btn class="text-none" color="deep-purple" rounded="md"
           ><v-icon icon="mdi-email-fast-outline pr-3"></v-icon>
           Contactez moi !
         </v-btn>
       </nuxt-link>
-    </div>
+    </nav>
   </section>
 </template>
 <script>

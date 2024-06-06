@@ -1,5 +1,5 @@
 <template lang="">
-  <v-container class="d-flex justify-center">
+  <v-container class="d-flex justify-center" tag="section">
     <div v-if="success">
       <v-alert type="success" variant="outlined">Votre message a été envoyé</v-alert>
     </div>
@@ -25,9 +25,13 @@
             required
           ></v-text-field>
         </v-col>
+      </v-row>
+      <v-row>
         <v-col cols="12">
           <v-text-field v-model="email" :rules="emailRules" label="Email" required></v-text-field>
         </v-col>
+      </v-row>
+      <v-row>
         <v-col cols="12">
           <v-textarea
             v-model="message"
@@ -37,7 +41,9 @@
           ></v-textarea>
         </v-col>
       </v-row>
-      <v-btn :disabled="!valid" color="success" class="mr-4" @click="submit"> Envoyer </v-btn>
+      <v-row class="pl-3">
+        <v-btn :disabled="!valid" color="success" class="mr-4" @click="submit"> Envoyer </v-btn>
+      </v-row>
     </v-form>
   </v-container>
 </template>
