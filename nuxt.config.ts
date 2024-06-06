@@ -34,4 +34,13 @@ export default defineNuxtConfig({
   eslint: {
     // options here
   },
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      htmlAttrs: {
+        lang: 'fr',
+      },
+    },
+  },
 });
