@@ -1,6 +1,6 @@
-# personal_portfolio_vuejs
+# personal portfolio nuxt 3
 
-Personnal portfolio made with Nuxt 3 in Vite.
+My personnal portfolio made with Nuxt 3 in Vite.
 
 # Nuxt 3 Minimal Starter
 
