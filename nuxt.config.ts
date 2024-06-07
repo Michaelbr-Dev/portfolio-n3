@@ -15,6 +15,13 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxtjs/google-fonts',
     'nuxt-svgo',
+    [
+      '@nuxtjs/robots',
+      {
+        UserAgent: '*',
+        Allow: '/',
+      },
+    ],
   ],
   svgo: {
     autoImportPath: './assets/icons/',
