@@ -8,7 +8,7 @@
       Consultez mon portfolio !
     </p>
 
-    <v-row tag="section" class="w-90 ga-3">
+    <v-row class="w-100 ga-3 mx-auto">
       <v-col
         tag="article"
         class="bg-grey-lighten-4 rounded-lg mx-auto elevation-1 pb-7"
@@ -17,7 +17,7 @@
         <v-sheet tag="header" class="bg-grey-lighten-4 mb-5">
           <h3 class="text-h6 text-center font-weight-bold">Front-End</h3>
         </v-sheet>
-        <v-row tag="section" class="mx-auto d-flex flex-wrap">
+        <v-row class="mx-auto d-flex flex-wrap">
           <ul class="d-flex flex-wrap justify-center ga-3">
             <li>
               <figure class="d-flex flex-column align-center">
@@ -78,7 +78,7 @@
         <v-sheet tag="header" class="bg-grey-lighten-4 mb-5">
           <h3 class="text-h6 text-center font-weight-bold">Back-End</h3>
         </v-sheet>
-        <v-row tag="section" class="mx-auto d-flex flex-wrap">
+        <v-row class="mx-auto d-flex flex-wrap">
           <ul class="d-flex flex-wrap justify-center ga-3">
             <li>
               <figure class="d-flex flex-column align-center">
@@ -133,7 +133,7 @@
         <v-sheet tag="header" class="bg-grey-lighten-4 mb-5">
           <h3 class="text-h6 text-center font-weight-bold">Tools</h3>
         </v-sheet>
-        <v-row tag="section" class="mx-auto d-flex flex-wrap">
+        <v-row class="mx-auto d-flex flex-wrap">
           <ul class="d-flex flex-wrap justify-center ga-3">
             <li>
               <figure class="d-flex flex-column align-center">
@@ -200,7 +200,7 @@
         <v-sheet tag="header" class="bg-grey-lighten-4 mb-5">
           <h3 class="text-h6 text-center font-weight-bold">Utils</h3>
         </v-sheet>
-        <v-row tag="section" class="mx-auto d-flex flex-wrap">
+        <v-row class="mx-auto d-flex flex-wrap">
           <ul class="d-flex flex-wrap justify-center ga-3">
             <li>
               <figure class="d-flex flex-column align-center">
