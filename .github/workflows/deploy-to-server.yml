@@ -38,4 +38,4 @@ jobs:
           ssh-private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
           remote-path: ${{ secrets.DEPLOY_PATH }}
           local-path: .output
-          ftp-post-sync-commands: ${{ secrets.DEPLOY_POST_COMMAND }}
+          # ftp-post-sync-commands: ${{ secrets.DEPLOY_POST_COMMAND }}
