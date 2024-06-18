@@ -13,7 +13,7 @@ export default {
     };
   },
   created() {
-    fetch('/projects.json')
+    fetch(`/projects.json`)
       .then((response) => {
         return response.json();
       })
