@@ -17,7 +17,6 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    environment: production
     steps:
       - uses: actions/checkout@v4
         with:
@@ -27,13 +26,6 @@ jobs:
           node-version: '20.x'
       - name: 'Install dependencies'
         run: npm install
-      - name: Create .env file
-        uses: SpicyPizza/create-envfile@v2.0.3
-        with:
-          envkey_NUXT_APP_PASSWORD: ${{ secrets.NUXT_APP_PASSWORD }}
-          envkey_NUXT_EMAIL_RECIPIENT: ${{ secrets.NUXT_EMAIL_RECIPIENT }}
-          envkey_NUXT_EMAIL_USER: ${{ secrets.NUXT_EMAIL_USER }}
-          file_name: .env
       - name: 'Build'
         run: npm run build
       - name: 'Deploy'
