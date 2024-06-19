@@ -9,7 +9,7 @@ on:
       sync:
         description: 'File synchronization'
         required: true
-        default: 'full'
+        default: 'delta'
 
 jobs:
   deploy-to-prod:
@@ -17,6 +17,11 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    environment: production
+    env: # Environment variable
+      NUXT_APP_PASSWORD: ${{ secrets.NUXT_APP_PASSWORD }}
+      NUXT_EMAIL_RECIPIENT: ${{ secrets.NUXT_EMAIL_RECIPIENT }}
+      NUXT_EMAIL_USER: ${{ secrets.NUXT_EMAIL_USER }}
     steps:
       - uses: actions/checkout@v4
         with:
