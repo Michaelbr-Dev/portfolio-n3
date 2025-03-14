@@ -25,7 +25,7 @@ export default defineEventHandler(async (event) => {
     from: email,
     to: EMAIL_RECIPIENT,
     subject: `Contact via portfolio de ${firstname} ${lastname}`,
-    text: message,
+    text: `${email}\n\n${message}`,
   };
 
   try {
