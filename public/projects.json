@@ -37,7 +37,7 @@
       }
     ],
     "tags": ["Frontend"],
-    "homepage": true
+    "homepage": false
   },
   {
     "id": "3",
@@ -77,7 +77,7 @@
       }
     ],
     "tags": ["Frontend"],
-    "homepage": true
+    "homepage": false
   },
   {
     "id": "5",
@@ -97,7 +97,7 @@
       }
     ],
     "tags": ["Backend"],
-    "homepage": true
+    "homepage": false
   },
   {
     "id": "6",
@@ -106,22 +106,72 @@
     "description": "Réaliser un réseau social professionnel",
     "url": [
       {
-        "url": "#",
-        "type": "demo",
-        "name": "Voir le projet"
-      },
-      {
         "url": "https://github.com/Michaelbr-Dev/P7-frontend",
-        "type": "code",
-        "name": "Le code front"
+        "type": "demo",
+        "name": "Voir le code front"
       },
       {
         "url": "https://github.com/Michaelbr-Dev/OC-Project-7-backend",
         "type": "code",
-        "name": "Le code back"
+        "name": "Voir le code back"
       }
     ],
     "tags": ["Frontend", "Backend"],
+    "homepage": false
+  },
+  {
+    "id": "7",
+    "name": "Portfolio personnel",
+    "img": "/images/portfolio_nuxt3_v1.webp",
+    "description": "Création d'un Portfolio Personnel Dynamique et Réactif",
+    "url": [
+      {
+        "url": "https://michaelbr-dev.fr/",
+        "type": "demo",
+        "name": "Voir le projet"
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/portfolio-n3",
+        "type": "code",
+        "name": "Voir le code"
+      }
+    ],
+    "tags": ["Frontend", "Backend"],
+    "homepage": true
+  },
+  {
+    "id": "8",
+    "name": "Allopizza Saint-Saulve",
+    "img": "/images/allopizza.webp",
+    "description": "Création d'un Site Web Vitrine pour une Pizzeria Locale",
+    "url": [
+      {
+        "url": "http://allopizzastsaulve.fr/",
+        "type": "demo",
+        "name": "Voir le projet"
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/allopizza",
+        "type": "code",
+        "name": "Voir le code"
+      }
+    ],
+    "tags": ["Frontend"],
+    "homepage": true
+  },
+  {
+    "id": "9",
+    "name": "BoilerPlate Nuxt 3",
+    "img": "/images/project_boilerplate-n3.webp",
+    "description": "Un starter Nuxt 3 avec de nombreuses fonctionnalités.",
+    "url": [
+      {
+        "url": "https://github.com/Michaelbr-Dev/Boilerplate-Nuxt3",
+        "type": "code",
+        "name": "Voir le code"
+      }
+    ],
+    "tags": ["Frontend"],
     "homepage": true
   }
 ]
